@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page 1 css  */
+
+#header {
+    background: url(../JQUERY/IMAGES/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-wrapper{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.flex {
+    gap: 600px;
+    display: flex;
+}
+
+.navigation {
+    gap: 70px;
+    display: flex;
+}
+
+.logo img {
+    height: 100px;
+    width: 300px;
+}
+
+.logo {
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.select_menu {
+    padding-top: 70px;
+    display: flex;
+}
+
+.select_menu select {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+
+.signin {
+    padding-top: 70px;
+}
+
+.signin button {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.color {
+    padding-left: 40%;
+}
+
+.color button {
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 70px;
+}
+
+.peregraph {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.peregraph h1 {
+    font-size: 60px;
+}
+
+.peregraph p {
+    font-size: 25px;
+}
+
+.part input {
+    padding-left: 20px;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    background-color: transparent;
+    color: gray;
+    border-color: gray;
+}
+
+.part {
+    display: flex;
+    padding-left: 400px;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.get button {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border: none;
+    height: 50px;
+    width: 200px;
+}
+
+/* page 2 css */
+
+.page_2 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    gap: 150px;
+}
+
+.col-50 {
+    padding-top: 130px;
+    padding-left: 80px;
+}
+
+.col-50 h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.col-50 p {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.TV {
+    height: auto;
+    width: 100%;
+}
+
+.TV img {
+    height: 500px;
+    width: 600px;
+}
+
+hr {
+    background-color: 20px solid gray;
+}
+
+/* page 3 css  */
+
+.page_2 {
+    padding: 100px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: black;
+    display: flex; 
+    gap: 150px;  
+}
+
+.pera {
+    padding-top: 130px;
+}
+
+.pera h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.pera p {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.COL-50 img {
+    height: 380px;
+    width: 480px;
+}
+
+/* page 4 css  */
+
+.page_2 {
+    padding: 100px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: black;
+    display: flex;
+    gap: 150px; 
+}
+
+.left {
+    padding-top: 130px;
+}
+
+.left h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.left p {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.device img {
+    height: 400px;
+    width: 400px;
+}
+
+/* page 5 css  */
+
+.page_2 {
+    padding: 100px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: black;
+    display: flex;
+    gap: 150px;  
+}
+
+.kids {
+    padding-top: 130px;
+}
+
+.kids h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.kids p {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.cartoons img {
+    height: 400px;
+    width: 400px;
+}
+
+/* page 6 css  */
+
+.page_6 {
+    padding: 50px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: black;
+}
+
+.page_6 h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.boxes {
+    padding-left: 100px;
+    padding-top: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.slider_1 {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    height: 170px;
+    width: 1220px;
+}
+
+.slider_2 {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    height: 100px;
+    width: 1220px;
+} 
+
+.slider_3 {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    height: 200px;
+    width: 1220px;
+}
+
+.slider_4 {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    height: 100px;
+    width: 1220px;
+}
+
+.slider_5 {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    height: 100px;
+    width: 1220px;
+}
+
+.slider_6 {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    height: 200px;
+    width: 1220px;
+}
+
+.boxes input {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    display: inline;
+    height: 80px;
+    width: 1220px;
+}
+
+.page_6 p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* page 7 css  */
+
+.page_7 {
+   padding: 70px;
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: black;
+    padding-left: 250px;
+}
+
+.page_7 p {
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    gap: 100px;
+}
+

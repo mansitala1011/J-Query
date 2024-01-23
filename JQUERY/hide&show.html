@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS In jQuery</title>
+  </head>
+  <body>
+    <h1>CSS In jQuery</h1>
+    <br>
+    <button class="btnslideup">slideup</button>
+    <button class="btnslidedown">slidedown</button>
+    <button class="btnslidetoggle">slideToggle</button>
+    <br>
+    <br>
+    <div class="box">This Is The Magic Of jQuery</div>
+
+    <!-- jQuery -->
+
+    <!-- <script src="../js/jquery-3.7.1.min.js"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+
+    <!-- Script In Which we are including jquery CSS  -->
+
+    <script>
+
+      $("body").css({
+        backgroundColor: "lightblue",
+        textAlign: "center",
+      });
+
+      $("h1").css({
+        fontSize: "50px",
+        color: "black",
+      });
+
+      $("button").css({
+        fontSize: "20px",
+        color: "black",
+        backgroundColor: "pink",
+        padding: "10px 30px",
+        borderRadius: "20px",
+      });
+
+      $(".box").css({
+        fontSize: "30px",
+        color: "white",
+        backgroundColor: "red",
+        padding: "10px 30px",
+        margin: "10px 30px",
+        borderRadius: "20px",
+      });
+
+    </script>
+
+    <!-- script -->
+
+    <script>
+      $(document).ready(function () {
+        // Hide
+
+        $(".btnslideup").click(function () {
+          $(".box").slideUp();
+        });
+
+        // Show
+
+        $(".btnslidedown").click(function () {
+          $(".box").slideDown();
+        });
+
+        // Toggle
+
+        $(".btnslidetoggle").click(function () {
+          $(".box").slideToggle();
+        });
+      });
+    </script>
+  </body>
+</html>
