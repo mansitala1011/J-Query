@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse event in jQuery</title>
+
+    <!-- jQuery cdn link -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <h1>Mouse event in jQuery</h1>
+    <hr />
+    <button class="keyevent">click</button>
+    <hr />
+    <div class="box">This Is The Magic Of jQuery</div>
+</body>
+
+<script>
+
+    $("body").css({
+        backgroundColor:"green",
+    });
+
+    $("h1").css({
+      color: "black",
+      fontSize: "50px",
+      textAlign: "center",
+    });
+
+    $("keyevent").css({
+        marginleft:"50px",
+    });
+
+    $("button").css({
+        backgroundColor:"black",
+        padding: "10px 30px",
+        color:"white",
+        fontSize:"20px",
+    });
+
+    $(".box").css({
+        fontSize: "30px",
+        color: "black",
+        backgroundColor: "khaki",
+        padding: "10px 30px",
+        margin: "10px 30px",
+      });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        // key up
+
+        $(".keyevent").keyup(function () {
+          $(".box").css({backgroundColor:"purple"});
+        });
+
+        // key down
+
+        $(".keyevent").keydown(function () {
+          $(".box").css({backgroundColor:"red"});
+        });
+
+    });
+    </script>
+</html>

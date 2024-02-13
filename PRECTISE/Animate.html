@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate in jqery </title>
+</head>
+
+<body>
+    <h1>Animate Effect In jQuery</h1>
+    <hr />
+    <button class="btnAnimate">Slide Up</button>
+
+
+    <hr />
+    <div class="box">This Is The Magic Of jQuery</div>
+
+    <!-- jQuery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Script In Which we are including jquery CSS  -->
+
+    <script>
+
+        $("body").css({
+            backgroundColor: "pink",
+            textAlign: "center",
+        });
+
+        $("h1").css({
+            fontSize: "50px",
+            color: "black",
+        });
+
+        $("button").css({
+            paddingtop: "20px",
+            fontSize: "15px",
+            color: "white",
+            backgroundColor: "blue",
+            padding: "10px 30px",
+            borderRadius: "3px",
+        });
+
+        $(".box").css({
+            fontSize: "30px",
+            color: "white",
+            backgroundColor: "black",
+            padding: "10px 30px",
+            marginLeft: "10px",
+            borderRadius: "3px",
+            height: "200px",
+            width: "200px",
+            border: "5px solid blue",
+        });
+
+    </script>
+
+    <!-- script -->
+
+    <script>
+        $(document).ready(function () {
+            // Slide Up
+
+            $(".btnAnimate").click(function () {
+                $(".box").animate({ borderRadius: '200px', marginLeft: "1200px" }, 2000);
+            });
+
+
+
+        });
+    </script>
+</body>
+
+</html>

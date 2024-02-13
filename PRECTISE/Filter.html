@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter in jQuery</title>
+</head>
+
+<body>
+    body
+    <div class="great-grand-parent">
+        great-grand-parent
+        <div class="grand-parent">
+            grand-parent
+            <div class="parent">
+                parent
+                <div class="child">Child one</div>
+                <div class="child two">Child Two</div>
+                <div class="child">Child Three</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- jQuery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jquery CSS  -->
+
+    <script>
+        $("*").css({
+            backgroundColor: "alisblue",
+            textAlign: "center",
+            margin: "20px",
+            fontSize: "30px",
+        });
+    </script>
+
+    <!-- script -->
+
+    <script>
+        $(document).ready(function () {
+
+            // siblings 
+
+            $(".child").siblings().css({ border: "5px solid red" });
+            $(".child").filter('.two').css({ backgroundColor: "yellow" });
+
+
+        });
+    </script>
+</body>
+
+</html>
